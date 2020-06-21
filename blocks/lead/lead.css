@@ -1,0 +1,19 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__card/lead__card.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+  /*position: absolute;*/
+  /*width: 928px;*/
+  /*height: 962px;*/
+  /*left: 48px;
+  top: 128px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-top: 0px;
+}

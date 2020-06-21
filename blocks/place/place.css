@@ -1,0 +1,45 @@
+@import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+  /*position: absolute;*/
+  /*width: 928px;*/
+  /*height: 644px;
+  left: 48px;
+  top: 2736px;*/
+  display: grid;
+  /*grid-template-columns: 440px 456px;*/
+  grid-template-columns: min-content 1fr;
+  /*grid-template-rows: max-content 440px;*/
+  grid-gap: 48px 40px;
+  padding: 0px 0px 80px 0px;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    grid-gap: 48px 28px;
+    padding: 0px 0px 48px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 32px;
+    padding: 0px 0px 24px 0px;
+  }
+}
+
+

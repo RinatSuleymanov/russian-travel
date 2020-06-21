@@ -1,0 +1,23 @@
+  .content {
+    margin: 0px 148px 0px 148px;
+    position: relative;
+  }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    margin: 0px 48px 0px 48px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin: 0px 24px 0px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    margin: 0px 16px 0px 16px;
+  }
+}
+

@@ -1,0 +1,15 @@
+.place__website {
+  /*position: absolute;*/
+  /*width: 456px;*/
+  /*height: 46px;*/
+  /*left: 520px;
+  top: 2842px;*/
+  align-self: end;
+  justify-self: start;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    display: none;
+  }
+}

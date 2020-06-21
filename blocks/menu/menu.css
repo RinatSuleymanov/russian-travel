@@ -1,0 +1,7 @@
+@import url(./__link/menu__link.css);
+
+@media screen and (max-width: 320px) {
+  .menu__link {
+    display: block;
+  }
+}
