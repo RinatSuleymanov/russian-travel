@@ -1,35 +1,30 @@
+@import url(./__container/cover__container.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__background/cover__background.css);
 
-
 .cover {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 12px;
-  min-height: 740px;
+  background-color: #2A2C2F;
+  color: #fff;
+  padding: 92px 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    margin-top: 40px;
-    min-height: 640px;
-  }
+    margin: 0px -48px 0px -48px;
+}
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    margin-top: 16px;
-    max-height: 200px;
+    margin: 0px -24px 0px -24px;
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
   .cover {
-    min-height: 200px;
+    margin: 0px -16px 0px -16px;
   }
 }

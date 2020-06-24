@@ -6,7 +6,7 @@
   position: relative;
   margin-top: 92px;
   margin-bottom: 92px;
-  margin-left: 100px;
+  margin-left: 0px;
   max-width: 690px;
 }
 
@@ -14,7 +14,6 @@
   .intro {
     margin-top: 88px;
     margin-bottom: 88px;
-    margin-left: 0px;
   }
 }
 
@@ -22,6 +21,5 @@
   .intro {
     margin-top: 64px;
     margin-bottom: 64px;
-    margin-left: 0px;
   }
 }

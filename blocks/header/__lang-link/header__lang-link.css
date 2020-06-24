@@ -1,13 +1,13 @@
 .header__lang-link {
   min-width: 30px;
-  min-height: 28px;
+  /*min-height: 28px;*/
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
   padding-right: 18px;
 }
@@ -19,14 +19,14 @@
 @media screen and (max-width: 768px) {
   .header__lang-link {
     min-width: 30px;
-    min-height: 28px;
+    /*min-height: 28px;*/
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
     min-width: 22px;
-    min-height: 24px;
+    /*min-height: 24px;*/
     font-size: 18px;
     line-height: 24px;
   }

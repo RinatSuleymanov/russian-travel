@@ -42,4 +42,7 @@
   }
 }
 
+.place:last-of-type {
+  padding-bottom: 0px;
+}
 
