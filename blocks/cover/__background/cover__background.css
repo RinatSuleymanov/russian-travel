@@ -15,24 +15,3 @@
   .cover__backgroun:hover:before {
     opacity: 0.8;
   }
-
-/*@media screen and (max-width: 1024px) {
-    .cover__background {
-    width: calc(100% + 96px);
-    left: -48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__background {
-    left: -24px;
-    width: calc(100% + 48px);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__background {
-    left: -16px;
-    width: calc(100% + 32px);
-  }
-}*/
