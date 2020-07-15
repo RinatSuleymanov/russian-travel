@@ -21,20 +21,20 @@
   align-content: center;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place {
     grid-gap: 48px 32px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
     grid-gap: 48px 28px;
     padding: 0px 0px 48px 0px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .place {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 32px;

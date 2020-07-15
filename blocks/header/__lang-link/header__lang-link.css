@@ -12,6 +12,7 @@
   padding-right: 18px;
   list-style-type: none;
   margin: 0px;
+  text-decoration: none;
 }
 
 .header__lang-link:nth-of-type(2) {

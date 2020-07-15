@@ -6,13 +6,6 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
-  .header__logo {
-    min-width: 176px;
-    min-height: 52px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .header__logo {
     min-width: 142px;

@@ -6,7 +6,6 @@
   /*left: 48px;
   top: 488px;*/
   margin: 0px;
-  align-items: center;
   object-fit: cover;
   /*width: 100%;*/
   /*min-height: 580px;*/
@@ -15,7 +14,7 @@
 @media screen and (max-width: 768px) {
   .lead__image {
     position: relative;
-    left: -24px;
+    /*left: -24px;*/
     width: calc(100% + 48px);
     max-width: 768px;
     /*min-height: 480px;*/
@@ -25,10 +24,11 @@
 @media screen and (max-width: 320px) {
   .lead__image {
     position: relative;
-    left: -16px;
+    /*left: -16px;*/
     width: calc(100% + 32px);
-    max-width: 320px;
+    min-width: 320px;
     /*min-height: 200px;*/
+    margin-left: -32px;
   }
 }
 
