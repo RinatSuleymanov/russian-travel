@@ -1,5 +1,6 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_ru/header__lang-link_ru.css);
 @import url(./__lang-link/_eng/header__lang-link_eng.css);
 
 .header {
@@ -21,7 +22,7 @@
 @media screen and (max-width: 320px) {
   .header {
     /*width: 100%;*/
-    height: 42px;
+    /*height: 42px;*/
     margin: 0px 16px 0px 16px;
     padding: 16px 0px 48px 0px;
   }
@@ -30,7 +31,7 @@
 @media screen and (max-width: 768px) {
   .header {
     /*width: 100%;*/
-    height: 52px;
+    /*height: 52px;*/
     margin: 0px 24px 0px 24px;
     padding: 28px 0px 48px 0px;
   }

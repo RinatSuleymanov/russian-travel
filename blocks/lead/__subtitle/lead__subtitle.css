@@ -1,10 +1,10 @@
   .lead__subtitle {
   /*position: absolute;*/
-  max-width: 640px;
+  /*max-width: 640px;*/
   /*height: 72px;*/
   /*left: 192px;
   top: 360px;*/
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -15,6 +15,7 @@
   position: relative;
   margin-top: 32px;
   margin-bottom: 64px;
+  text-align: center;
   }
 
 @media screen and (max-width: 1024px) {

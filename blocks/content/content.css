@@ -1,12 +1,13 @@
   .content {
     padding: 0px 148px 0px 148px;
     position: relative;
+    margin: auto;
   }
 
 @media screen and (max-width: 1024px) {
   .content {
     padding: 0px 48px 0px 48px;
-}
+  }
 }
 
 @media screen and (max-width: 768px) {

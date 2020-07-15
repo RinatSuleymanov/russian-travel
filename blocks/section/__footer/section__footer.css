@@ -1,0 +1,15 @@
+.section__footer {
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 768px){
+  .section__footer {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .section__footer {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,40 @@
+.footer__menu-link {
+  /*position: absolute;*/
+  /*width: 50px;
+  height: 18px;*/
+  /*left: 48px;
+  top: 6856px;*/
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+/*.footer__menu-link:last-of-type {
+  margin-right: 0px;
+}*/
+
+@media screen and (max-width: 760px) {
+  .footer__menu-link {
+    display: block;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+/*@media screen and (max-width: 320px) {
+  .footer__menu-link {
+    display: block;
+    margin-bottom: 32px;
+  }
+  .footer__menu-link:last-of-type {
+    margin-bottom: 0px;
+  }
+}*/
+

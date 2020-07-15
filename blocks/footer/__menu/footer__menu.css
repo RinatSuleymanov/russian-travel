@@ -1,0 +1,16 @@
+  .footer__menu {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 24px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 24px;
+  }
+
+  @media (max-width: 760px) {
+    .footer__menu {
+      flex-direction: column;
+      padding-bottom: 0px;
+    }
+  }
+

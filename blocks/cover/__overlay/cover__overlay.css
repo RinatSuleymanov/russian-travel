@@ -48,7 +48,6 @@
     opacity: 0.3;
     z-index: -1;
     transition: opacity 1s linear 0.2s;
-    /*overflow: hidden;*/
   }
 
 .cover__overlay:hover::before {

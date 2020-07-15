@@ -4,7 +4,7 @@
   /*height: 152px;*/
   /*left: 48px;
   top: 2736px;*/
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -14,14 +14,14 @@
   margin: 0px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;

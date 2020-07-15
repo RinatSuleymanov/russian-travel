@@ -1,13 +1,14 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./__name-data/intro__name-data.css);
 
 .intro {
   position: relative;
+  max-width: 690px;
+  margin: auto;
   margin-top: 92px;
   margin-bottom: 92px;
-  margin-left: 0px;
-  max-width: 690px;
 }
 
 @media screen and (max-width: 768px) {
