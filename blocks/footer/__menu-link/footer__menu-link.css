@@ -13,6 +13,11 @@
   color: #FFFFFF;
   text-decoration: none;
   margin-right: 18px;
+  transition: opacity 1s linear 0.2s;
+}
+
+.footer__menu-link:hover {
+  opacity: 0.8;
 }
 
 /*.footer__menu-link:last-of-type {

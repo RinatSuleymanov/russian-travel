@@ -7,29 +7,29 @@
 .cover {
   background-color: #2A2C2F;
   color: #fff;
-  padding: 32px 0px;
+  padding: 92px 0px;
   text-align: center;
   max-width: 1184px;
   /*margin: 0px -48px 0px -48px;*/
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .cover {
-
-    margin: 0px -48px 0px -48px;
+    /*margin: 0px -48px 0px -48px;*/
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .cover {
-    padding: 32px 0px 64px 0px;
-    margin: 0px -24px 0px -24px;
+    padding: 64px 0px;
+   /* margin: 0px -24px 0px -24px;*/
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
   .cover {
-    margin: 0px -16px 0px -16px;
+    padding: 64px 0px;
+   /* margin: 0px -16px 0px -16px;*/
   }
 }
 

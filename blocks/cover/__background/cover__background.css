@@ -6,7 +6,7 @@
     bottom: 0;
     z-index: -2;
     max-width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     width: 100%;
     /*object-fit: cover;*/
     display: block;
@@ -18,19 +18,19 @@
     opacity: 0.8;
   }*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
     .cover__background {
       min-height: 640px;
   }
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .cover__background {
       min-height: 480px;
     }
   }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
     .cover__background {
       min-height: 200px;
     }

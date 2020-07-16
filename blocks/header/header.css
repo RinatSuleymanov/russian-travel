@@ -1,36 +1,15 @@
-@import url(./__logo/header__logo.css);
-@import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/_active/header__lang-link_active.css);
+@import url('./__lang-list/header__lang-list.css');
+@import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_active/header__lang-link_active.css');
+@import url('./__logo/header__logo.css');
 
 .header {
-  position: relative;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin: 0px 48px 0px 48px;
-  padding: 28px 0px 56px 0px;
+  align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-    padding: 28px 0px 48px 0px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
-    /*width: 100%;*/
-    /*height: 42px;*/
-    margin: 0px 16px 0px 16px;
-    padding: 16px 0px 48px 0px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    /*width: 100%;*/
-    /*height: 52px;*/
-    margin: 0px 24px 0px 24px;
-    padding: 28px 0px 48px 0px;
-  }
-}

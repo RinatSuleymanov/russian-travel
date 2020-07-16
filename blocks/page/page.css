@@ -1,4 +1,6 @@
-/*@import url(./__content/page__content.css);*/
+@import url(./__content/page__content.css);
+@import url(./__header/page__header.css);
+@import url(./__intro-lead/page__intro-lead.css);
 
 .page {
     background: #2A2C2F;
@@ -11,6 +13,7 @@
     padding: 0px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    color: #ffffff;
 }
 
 

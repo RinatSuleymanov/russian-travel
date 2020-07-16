@@ -20,10 +20,12 @@
   margin-bottom: 0px;
 }*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 

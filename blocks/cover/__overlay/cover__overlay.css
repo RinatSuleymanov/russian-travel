@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 312px 245px;
+    /*padding: 312px 245px;*/
     box-sizing: border-box;
     max-width: 100%;
     position: relative;
@@ -10,27 +10,27 @@
     overflow: hidden;
     color: #fff;
     text-decoration: none;
-    max-height: 740px;
+    min-height: 740px;
   }
 
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
   .cover__overlay {
-    padding: 232px 195px;
-    max-height: 640px;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover__overlay {
-    padding: 115px 104px;
-    max-height: 480px;
+    /*padding: 232px 195px;*/
+    min-height: 640px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 950px) {
   .cover__overlay {
-    padding: 33px 16px;
-    max-height: 200px;
+    /*padding: 115px 104px;*/
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 650px) {
+  .cover__overlay {
+    /*padding: 33px 16px;*/
+    min-height: 200px;
   }
 }
 

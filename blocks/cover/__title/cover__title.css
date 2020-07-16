@@ -6,11 +6,17 @@
   line-height: 76px;
   /* or 106% */
   color: #FFFFFF;
-  margin: 0px 0px 32px 0px;
+  margin: 0px auto 32px auto;
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1140px){
+  .cover__title {
+    max-width: 656px;
+  }
+}
+
+@media (max-width: 650px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

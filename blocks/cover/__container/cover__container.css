@@ -6,21 +6,21 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .cover__container {
     max-width: 1024px;
     padding: 92px 0px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .cover__container {
     max-width: 768px;
     padding: 88px 0px;
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 650px) {
   .cover__container {
     max-width: 320px;
     padding: 64px 0px;
