@@ -1,4 +1,4 @@
-.page__intro-lead {
+.content__intro-lead {
   max-width: calc(100% - 100px*2);
   margin: 56px auto 92px auto;
   width: 100%;
@@ -6,19 +6,19 @@
 
 
 @media screen and (max-width: 1024px){
-  .page__intro-lead {
+  .content__intro-lead {
     max-width: calc(100% - 48px*2);
   }
 }
 
 @media screen and (max-width: 950px){
-  .page__intro-lead {
+  .content__intro-lead {
     max-width: calc(100% - 24px*2);
   }
 }
 
 @media screen and (max-width: 320px){
-  .page__intro-lead {
+  .content__intro-lead {
     max-width: calc(100% - 16px*2);
   }
 }

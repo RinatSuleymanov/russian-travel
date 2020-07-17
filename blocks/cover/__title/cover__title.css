@@ -8,12 +8,7 @@
   color: #FFFFFF;
   margin: 0px auto 32px auto;
   text-align: center;
-}
-
-@media screen and (max-width: 1140px){
-  .cover__title {
-    max-width: 656px;
-  }
+  max-width: 560px;
 }
 
 @media (max-width: 650px) {
@@ -21,5 +16,6 @@
     font-size: 32px;
     line-height: 35px;
     margin-bottom: 16px;
+    max-width: 250px;
   }
 }

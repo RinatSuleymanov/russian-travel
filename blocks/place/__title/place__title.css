@@ -12,6 +12,7 @@
   /* or 106% */
   color: #FFFFFF;
   margin: 0px;
+  align-self: end;
 }
 
 @media screen and (max-width: 950px) {

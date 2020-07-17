@@ -1,9 +1,21 @@
 .places {
   /*position: absolute;*/
-  /*width: 984px;*/
+  width: 100%;
+  max-width: 984px;
   /*height: 3296px;*/
   /*left: 48px;
   top: 2736px;*/
   margin: auto;
 }
 
+@media screen and (max-width: 1150px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .places {
+    max-width: 720px;
+  }
+}

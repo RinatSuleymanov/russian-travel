@@ -19,16 +19,14 @@
   padding: 0px 0px 80px 0px;
   justify-content: center;
   align-content: center;
-  margin-left: 148px;
-  margin-right: 148px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1150px) {
   .place {
     grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: auto;
   }
 }
 
@@ -37,8 +35,7 @@
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
     padding: 0px 0px 48px 0px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: auto;
   }
 }
 
@@ -47,7 +44,7 @@
     grid-template-columns: 1fr;
     grid-gap: 32px;
     padding: 0px 0px 24px 0px;
-    margin: 0px;
+    margin: auto;
   }
 }
 

@@ -1,7 +1,9 @@
+  @import url(./__intro-lead/content__intro-lead.css);
+
   .content {
     /*padding: 0px 148px 0px 148px;*/
     position: relative;
-    margin: auto;
+    margin: 0px;
   }
 
 @media screen and (max-width: 1024px) {

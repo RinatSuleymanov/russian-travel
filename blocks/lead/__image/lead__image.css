@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 650px) {
   .lead__image {
-    position: relative;
     width: calc(100% + 32px);
   }
 }

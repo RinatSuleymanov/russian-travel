@@ -10,7 +10,6 @@
   @media (max-width: 760px) {
     .footer__menu {
       flex-direction: column;
-      padding-bottom: 0px;
     }
   }
 
