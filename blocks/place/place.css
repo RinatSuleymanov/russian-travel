@@ -26,7 +26,6 @@
   .place {
     grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
-    margin: auto;
   }
 }
 
@@ -35,7 +34,6 @@
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
     padding: 0px 0px 48px 0px;
-    margin: auto;
   }
 }
 
@@ -44,7 +42,6 @@
     grid-template-columns: 1fr;
     grid-gap: 32px;
     padding: 0px 0px 24px 0px;
-    margin: auto;
   }
 }
 
